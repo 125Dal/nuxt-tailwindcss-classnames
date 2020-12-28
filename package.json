@@ -2,7 +2,8 @@
   "name": "nuxt-tailwindcss-classnames",
   "version": "0.0.1",
   "description": "The plugin of Nuxt.js to make HTML's class strings for type-safety with TypeScript.",
-  "main": "index.js",
+  "main": "lib/module.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/125Dal/nuxt-tailwindcss-classnames/issues"
   },
-  "homepage": "https://github.com/125Dal/nuxt-tailwindcss-classnames#readme"
+  "homepage": "https://github.com/125Dal/nuxt-tailwindcss-classnames#readme",
+  "devDependencies": {
+    "@nuxt/types": "^2.14.12",
+    "nuxt": "^2.14.12",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  },
+  "files": [
+    "lib",
+    "types/*.d.ts"
+  ]
 }
